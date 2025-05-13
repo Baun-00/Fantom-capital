@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fantom Loans</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="assets/img/logo.png" alt="Fantom Logo" />
+    </div>
+    <ul class="nav-menu">
+      <li><a href="#">Home</a></li>
+
+      <li class="dropdown">
+        <a href="#">About Us <i class="fas fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Our Company</a></li>
+          <li><a href="#">Our Impact</a></li>
+          <li><a href="#">Media</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#">What We Do <i class="fas fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-sub">
+            <a href="#">Loans <i class="fas fa-chevron-right"></i></a>
+            <ul class="dropdown-submenu">
+              <li><a href="#">Logbook Loans</a></li>
+              <li><a href="#">Asset Finance</a></li>
+              <li><a href="#">Landlord Loans</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Cars4Sale</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="login-btn">Login</button>
+      <button class="signup-btn">Sign Up</button>
+    </div>
+  </nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <h3 class="tagline">Your Future, Funded Today.</h3>
+    <h1 class="headline">Fast, Flexible <br> Loans.</h1>
+    <p class="description">Flexible options. Fair terms. Fast approval.</p>
+    <ul class="features">
+      <li><i class="fas fa-check-circle"></i> Rates from as low as 3.50% p.a</li>
+      <li><i class="fas fa-check-circle"></i> Loan amounts from ksh. 60,000 to ksh.2,000,000</li>
+    </ul>
+    <div class="loan-input-group">
+      <input type="text" id="loanAmount" placeholder="Enter amount (ksh. 5,000 - ksh. 2,000,000)" />
+      <button onclick="applyLoan()">Apply for a loan</button>
+    </div>
+    <div class="testimonials">
+      <div class="avatars">
+        <img src="assets/img/customers - Copy.png" alt="Customer A" />
+        <img src="assets/img/customers.png" alt="Customer B" />
+        <img src="assets/img/customers2.png" alt="Customer C" />
+      </div>
+      <span>500+ Satisfied customers</span>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="car-image-wrapper">
+      <img src="assets/img/car.png" alt="Toyota SUV" class="car-image" />
+      <img src="assets/img/money1.png" class="money money-1" alt="Flying cash" />
+      <img src="assets/img/money2.png" class="money money-2" alt="Flying cash" />
+    </div>
+  </div>
+</section>
+<section class="about">
+  <div class="about-left">
+    <h2>About Us</h2>
+    <p>We are a leading provider of flexible loans, dedicated to helping you achieve your financial goals. Our mission is to provide fast, fair, and flexible loan solutions tailored to your needs.</p>
+    <button class="learn-more-btn">Learn More</button>
+  </div>
+  <div class="about-right">
+    <img src="assets/img/about.png" alt="About Us" />
+  </div>
+</section>  
+</section><script src="Js/nav.js"></script>
+</body>
+</html>
